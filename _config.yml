@@ -7,7 +7,6 @@
 
 # Site settings
 title: Evgeny Gavrin
-email: eugene.a.gavrin@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   N/A
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -17,3 +16,10 @@ github_username:  egavrin
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+paginate:             10
+excerpt_separator:    "<!-- more -->"
+safe:               false
+sass:
+  sass_dir: _sass
+  style: compressed
